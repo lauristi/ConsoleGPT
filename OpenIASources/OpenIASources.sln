@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33711.374
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{956153E4-3876-486F-AC3E-5766FBDE1F7B}"
+	ProjectSection(SolutionItems) = preProject
+		src\Labs\requests.http = src\Labs\requests.http
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleChatGPT", "src\ConsoleChatGPT\ConsoleChatGPT.csproj", "{6947AACF-89BA-45AB-841E-8FBDEA89CB30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleDallE", "src\ConsoleDallE\ConsoleDallE.csproj", "{B7AE0639-4C7D-44AD-9589-811C3BECE070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6947AACF-89BA-45AB-841E-8FBDEA89CB30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6947AACF-89BA-45AB-841E-8FBDEA89CB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6947AACF-89BA-45AB-841E-8FBDEA89CB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6947AACF-89BA-45AB-841E-8FBDEA89CB30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AE0639-4C7D-44AD-9589-811C3BECE070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AE0639-4C7D-44AD-9589-811C3BECE070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AE0639-4C7D-44AD-9589-811C3BECE070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AE0639-4C7D-44AD-9589-811C3BECE070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F66DE2C-ABE5-4ED7-9875-E053DAA1B9A0}
+	EndGlobalSection
+EndGlobal
